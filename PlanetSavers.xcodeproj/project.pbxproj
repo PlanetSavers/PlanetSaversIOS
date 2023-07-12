@@ -24,7 +24,7 @@
 		A6D373BF2A56834E005417C7 /* GroupTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D373BE2A56834E005417C7 /* GroupTaskView.swift */; };
 		A6D373C12A573D23005417C7 /* WalkTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D373C02A573D23005417C7 /* WalkTaskView.swift */; };
 		A6D373C32A57458F005417C7 /* CycleTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D373C22A57458F005417C7 /* CycleTaskView.swift */; };
-		A6E451FF2A4C408D00553052 /* PlantyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E451FE2A4C408D00553052 /* PlantyApp.swift */; };
+		A6E451FF2A4C408D00553052 /* PlanetSaversApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E451FE2A4C408D00553052 /* PlanetSaversApp.swift */; };
 		A6E452012A4C408D00553052 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E452002A4C408D00553052 /* ContentView.swift */; };
 		A6E452032A4C408E00553052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E452022A4C408E00553052 /* Assets.xcassets */; };
 		A6E452062A4C408E00553052 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E452052A4C408E00553052 /* Preview Assets.xcassets */; };
@@ -54,8 +54,8 @@
 		A6D373BE2A56834E005417C7 /* GroupTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTaskView.swift; sourceTree = "<group>"; };
 		A6D373C02A573D23005417C7 /* WalkTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkTaskView.swift; sourceTree = "<group>"; };
 		A6D373C22A57458F005417C7 /* CycleTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleTaskView.swift; sourceTree = "<group>"; };
-		A6E451FB2A4C408D00553052 /* Planty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planty.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6E451FE2A4C408D00553052 /* PlantyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantyApp.swift; sourceTree = "<group>"; };
+		A6E451FB2A4C408D00553052 /* PlanetSavers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanetSavers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E451FE2A4C408D00553052 /* PlanetSaversApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetSaversApp.swift; sourceTree = "<group>"; };
 		A6E452002A4C408D00553052 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A6E452022A4C408E00553052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6E452052A4C408E00553052 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 		A6E451F22A4C408D00553052 = {
 			isa = PBXGroup;
 			children = (
-				A6E451FD2A4C408D00553052 /* Planty */,
+				A6E451FD2A4C408D00553052 /* PlanetSavers */,
 				A6E451FC2A4C408D00553052 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -128,16 +128,16 @@
 		A6E451FC2A4C408D00553052 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A6E451FB2A4C408D00553052 /* Planty.app */,
+				A6E451FB2A4C408D00553052 /* PlanetSavers.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A6E451FD2A4C408D00553052 /* Planty */ = {
+		A6E451FD2A4C408D00553052 /* PlanetSavers */ = {
 			isa = PBXGroup;
 			children = (
 				A6F159BE2A5DE2EA003697F5 /* GoogleService-Info.plist */,
-				A6E451FE2A4C408D00553052 /* PlantyApp.swift */,
+				A6E451FE2A4C408D00553052 /* PlanetSaversApp.swift */,
 				A6E452002A4C408D00553052 /* ContentView.swift */,
 				A6E452022A4C408E00553052 /* Assets.xcassets */,
 				A65F90DC2A5963050037CC04 /* ViewModel */,
@@ -146,7 +146,7 @@
 				A6B79A122A547351009C4561 /* UserView.swift */,
 				A65F90D62A59531F0037CC04 /* Temp */,
 			);
-			path = Planty;
+			path = PlanetSavers;
 			sourceTree = "<group>";
 		};
 		A6E452042A4C408E00553052 /* Preview Content */ = {
@@ -160,9 +160,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A6E451FA2A4C408D00553052 /* Planty */ = {
+		A6E451FA2A4C408D00553052 /* PlanetSavers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6E452092A4C408E00553052 /* Build configuration list for PBXNativeTarget "Planty" */;
+			buildConfigurationList = A6E452092A4C408E00553052 /* Build configuration list for PBXNativeTarget "PlanetSavers" */;
 			buildPhases = (
 				A6E451F72A4C408D00553052 /* Sources */,
 				A6E451F82A4C408D00553052 /* Frameworks */,
@@ -172,14 +172,14 @@
 			);
 			dependencies = (
 			);
-			name = Planty;
+			name = PlanetSavers;
 			packageProductDependencies = (
 				A6E4520D2A4C426B00553052 /* FirebaseAuth */,
 				A6E4520F2A4C426B00553052 /* FirebaseFirestore */,
 				A6E452112A4C426B00553052 /* FirebaseStorage */,
 			);
-			productName = Planty;
-			productReference = A6E451FB2A4C408D00553052 /* Planty.app */;
+			productName = PlanetSavers;
+			productReference = A6E451FB2A4C408D00553052 /* PlanetSavers.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -197,7 +197,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A6E451F62A4C408D00553052 /* Build configuration list for PBXProject "Planty" */;
+			buildConfigurationList = A6E451F62A4C408D00553052 /* Build configuration list for PBXProject "PlanetSavers" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -213,7 +213,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A6E451FA2A4C408D00553052 /* Planty */,
+				A6E451FA2A4C408D00553052 /* PlanetSavers */,
 			);
 		};
 /* End PBXProject section */
@@ -244,7 +244,7 @@
 				A65F90D12A5837DB0037CC04 /* ImpactView.swift in Sources */,
 				A65F90DE2A59631B0037CC04 /* UserViewModel.swift in Sources */,
 				A65F90CB2A57EC430037CC04 /* TestTimerView.swift in Sources */,
-				A6E451FF2A4C408D00553052 /* PlantyApp.swift in Sources */,
+				A6E451FF2A4C408D00553052 /* PlanetSaversApp.swift in Sources */,
 				A626BAA22A5AC09A0057E14A /* RegisterView.swift in Sources */,
 				A65F90CF2A5808980037CC04 /* TestWalkView.swift in Sources */,
 				A6D373C32A57458F005417C7 /* CycleTaskView.swift in Sources */,
@@ -384,7 +384,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Planty/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PlanetSavers/Preview Content\"";
 				DEVELOPMENT_TEAM = 5LSQ3C9W8U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -421,7 +421,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Planty/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PlanetSavers/Preview Content\"";
 				DEVELOPMENT_TEAM = 5LSQ3C9W8U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -454,7 +454,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A6E451F62A4C408D00553052 /* Build configuration list for PBXProject "Planty" */ = {
+		A6E451F62A4C408D00553052 /* Build configuration list for PBXProject "PlanetSavers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6E452072A4C408E00553052 /* Debug */,
@@ -463,7 +463,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6E452092A4C408E00553052 /* Build configuration list for PBXNativeTarget "Planty" */ = {
+		A6E452092A4C408E00553052 /* Build configuration list for PBXNativeTarget "PlanetSavers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6E4520A2A4C408E00553052 /* Debug */,
